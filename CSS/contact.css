@@ -1,0 +1,240 @@
+:root{
+	--primarycolor: #FB5607;
+    --secondarycolor: #3A86FF;
+    --thirdcolor: #F5F5F5F5;
+    --fourthcolor:rgb(105, 97, 97);
+    
+	
+}
+
+body{
+    font-family: 'poppins' , sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #172441;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+.header-site{
+    width: 100%;
+    height: 87px;
+    position: fixed;
+    display: flex;
+    background-color: #fff;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #172441;
+}
+
+.navbar{
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    padding: 0px 100px 0 100px;
+}
+
+.logo-img{
+    width: 57px;
+    height: 57px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+}
+
+.logo-title{
+    font-size: 31px;
+    font-weight: bold;
+    margin-bottom:-10px ;
+    color: #000;
+}
+
+.nav-links{
+    display: flex;
+    position: relative;
+    padding:0;
+}
+
+.nav-item{
+    list-style: none;
+}
+
+.item-link{
+    color: #998b8b;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.item-link:hover{
+    color: #FB5607;
+}
+
+.recherche{
+    border: 1px solid #998b8b;
+    border-radius: 38px;
+    width: 289px;
+    height: 27px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.recherche i{
+    font-size: 20px;
+    color: #998b8b;
+}
+
+.search-input{
+    border: none; /* Supprime la bordure */
+    outline: none; /* Supprime le contour lorsqu'on clique dedans */
+    font-size: 20px;
+}
+
+.btn{
+    padding: 16px 36px;
+    background: #FB5607;
+    text-transform: capitalize;
+    font-weight:500px;
+    border-radius: 66px;
+    color: #fff;
+    margin-left: 50px;
+}
+
+i{
+    font-size: 28px;
+    margin-left: 10px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------- */
+.contact{
+    
+    align-items: center;
+    background-color: var(--thirdcolor);
+    /* font-family: 'Poppins', sans-serif; */
+    /* height: 1100px; */
+    /* width: auto; */
+    margin: 0px;
+}
+
+
+.block1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+    /* width: 950px; */
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    /* font-family: 'poppins' , sans-serif; */
+}
+
+/* .map{
+    width: 950px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 300px;
+    background-image: url("map.png");
+} */
+    
+.pare{
+    margin-left: 600px;
+    padding-top: 200px;
+    /* width: fit-content; */
+    align-items: center;
+}
+
+.form{
+    margin-top: 30px;
+    padding-right: 10px;
+}
+.button{
+    margin-left: 250px;
+}
+.inc{
+    width: 400px;
+    height: 50px;
+    /* background-color: white; */
+    border-radius: 5px;
+    border:none;
+    outline-color: #FB5607;
+    /* padding: 0 10px; */
+}
+textarea{
+    width: 400px;
+    height: 55px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    outline-color: #FB5607;
+}
+
+#btn2{
+    background-color: var(--primarycolor);
+    border-radius: 20px;
+    border-style: none;
+    width: 150px;
+    height: 40px;
+    color: white;
+}
+/* button{
+    
+} */
+#fe{
+    width: 10px;
+    height: 10px;
+    padding-left: 10px;
+}
+
+#c1{
+    font-weight: bold;
+    color: var(--secondarycolor);
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+#c2{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 36px;
+}
+#c2{
+    margin-left: -30px;
+}
+
+#bt1{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#bt2{
+    color: var(--fourthcolor);
+}
+
+/* .btext{
+    display: grid;
+    justify-content: left;
+    gap: 90px;
+} */
+
+.btext i{
+    color: var(--secondarycolor);
+    margin: 0;
+}
+
+.map{
+    margin: 0 100px;
+    width: 1300px;
+    height: 400px;
+    padding: 150px 0;
+}
+
+.map iframe{
+    width: 100%;
+    height: 100%;
+}

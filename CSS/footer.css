@@ -1,0 +1,149 @@
+
+
+:root{
+	--primarycolor: #FB5607;
+    --secondarycolor: #3A86FF;
+    --thirdcolor: #F5F5F5F5;
+    --fourthcolor:rgb(105, 97, 97);
+    
+
+}
+
+#btn{
+    background-color: var(--primarycolor);
+    border-radius: 20px;
+    border-style: none;
+    width: 150px;
+    height: 40px;
+    color: white;
+}
+
+footer{
+    background-color:#060A2E ;
+    font-family: 'Poppins', sans-serif;
+    /* width: fit-content; */
+    /* height: 600px */
+}
+
+.footer1{
+    /* margin-left: 200px;
+    margin-right: 165px; */
+    /* width: 100%; */
+    padding: 0 100px 0 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#fl{
+    width: 10px;
+    height: 10px;
+    padding-left: 10px;
+}
+
+#sp11, #sp12{
+    color: white;
+}
+#sp11{
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+#sp12{
+    font-size: 16px;
+    /* font-weight: lighter; */
+    color: rgba(255, 255, 255, 0.78);
+}
+
+/* #sp12:hover{
+    color: #FB5607;
+} */
+
+.b1{
+    /* width: 950px; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 25px */
+    
+}
+.b12{
+    margin-top: 30px;
+}
+
+
+.b2{
+    /* width: 950px; */
+
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-width: 0.1px;
+    border-color: rgba(92, 87, 87);
+    padding: 40px 0;
+    /* margin-top: 100px; */
+    /* padding-top: 20px ; */
+    /* height: 250px; */
+
+}
+#sp21{
+    text-transform: uppercase;
+    
+}
+#sp23{
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+}
+#sp21{
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+#fot{
+    color: var(--primarycolor);
+}
+.b3{
+    /* margin-left: 300px;
+    margin-top: 40px; */
+    text-align: center;
+}
+#sp11{
+    text-transform: capitalize;
+}
+#inp{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    outline: none;
+    /* border-style: none; */
+    border: none;
+}
+
+.icony{
+    display: flex;
+    gap: 20px;
+}
+
+.cer{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #fff;
+    color: #FB5607;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+.cer:hover{
+    background: #FB5607;
+    color: #fff;
+}
+
+.cer i{
+    margin: 0;
+}

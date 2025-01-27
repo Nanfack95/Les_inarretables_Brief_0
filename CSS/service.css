@@ -7,8 +7,10 @@
 	
 }
 /* .container{
-    width: fit-content;
-    height: fit-content;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
 } */
 
 body {
@@ -120,21 +122,20 @@ i{
   
 .offer{
     background-color:var(--thirdcolor) ;
-    /*width: 100*/
-    /*margin-top: -10px;
-    padding-right: 150px;
-    margin-left: -7px;
-    margin-right: -7px;*/
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: center;
     height: 600px;
     padding-top: 150px;
 }
-/*color:var(--primarycolor);*/
 
 #img1{
     width: 350px;
     height: 250px;
     border-radius: 5px;
 }
+
 #bleu1{
     color: var(--secondarycolor);
     text-transform: uppercase;
@@ -146,23 +147,21 @@ i{
     text-transform: capitalize;
     font-size: 36px;
     width: 700px;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
+
 #img2{
     width: 300px;
     height: 200px;
     border-radius: 5px;
-    /*padding-left: 30px;*/
 }
+
 #img3{
     width: 200px;
     height: 150px;
     border-radius: 5px;
-
-    /*padding-left: 10px;*/
-    
 }
+
 .im-text{
     width: 550px;
     display: flex;
@@ -180,18 +179,16 @@ i{
 .im3{
     margin-top: 40px;
 }
+
 .im1{
-   /* margin-top: 30px;*/
-   /*padding-top: -20px;*/
    margin-top: 40px;
-  /* o*/
 }
+
 .offer1{
-    
-    /*width: 1200px;*/
     margin-left: 100px;
     margin-right: 100px;
 }
+
 .block1{
     width:fit-content;
     height:fit-content;
@@ -225,6 +222,10 @@ i{
 
 .featured{
     height: 920px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .featured1{
@@ -308,20 +309,17 @@ font-size: 12px;
     width: 150px;
     height: 40px;
     color: white;
-    margin-left: 430px;
-    margin-top: 30px;
+    text-align: center;
+    margin:30px 0 60px 430px
 }
 .why{
-background-color: var(--thirdcolor);
-height: 350px;
-font-size: 12px;
-
-
-
-}
-.why1{
-    margin-left: 200px;
-    margin-right: 200px;
+    background-color: var(--thirdcolor);
+    font-size: 12px;
+    display: flex;
+    width: 100%;
+    padding: 80px 0;
+    align-items: center;
+    justify-content: center;
 }
 
 #bleu3{
@@ -343,9 +341,7 @@ font-size: 12px;
 #p2{
 padding-left: 300px;
 }
-.w1{
-    padding-top: 50px;
-}
+
 .icone{
     width: 950px;
     display: flex;
@@ -398,9 +394,12 @@ padding-left: 300px;
     margin-left: 200px;
     margin-right: 200px;
 }
-/* .explore{
-
-} */
+.explore{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
 .c{
     display: flex;
     justify-content: space-between;

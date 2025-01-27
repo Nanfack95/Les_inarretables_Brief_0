@@ -81,7 +81,7 @@ p{
     font-size: 20px;
 }
 
-.item-link.active{
+.item-link:active{
     color: #FB5607;
 }
 
